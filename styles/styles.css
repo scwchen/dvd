@@ -242,6 +242,7 @@ html {
 
 html {
   font-size: 125%;
+  background-color: black;
 }
 
 .logo-container {
@@ -252,4 +253,6 @@ html {
 .logo-container img {
   max-width: 100%;
   display: block;
+  -webkit-filter: opacity(0.8) contrast(70%) drop-shadow(0 0 0 white) saturate(1000%);
+          filter: opacity(0.8) contrast(70%) drop-shadow(0 0 0 white) saturate(1000%);
 }

@@ -1,5 +1,6 @@
 html {
   font-size: 125%;
+  background-color: black;
 }
 
 .logo-container {
@@ -9,6 +10,6 @@ html {
   img {
     max-width: 100%;
     display: block;
-    // fill: red;
+    filter: opacity(0.8) contrast(70%) drop-shadow(0 0 0 white) saturate(1000%);
   }
 }
